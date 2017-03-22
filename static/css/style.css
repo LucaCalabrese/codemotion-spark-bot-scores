@@ -1,0 +1,97 @@
+/* Rules */
+
+@font-face {
+   font-family: 'kemco_pixel';
+   src: url('../font/Kemco_Pixel_Bold.ttf') format('truetype');;
+}
+
+/* Elements */
+
+html, body{
+    background-color: black !important;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  
+}
+
+/* Classes */
+
+.footer {
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  left:10%;
+  right:10%;
+  margin: 0 0 0 0;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: black;
+}
+
+.credit{
+    font-family: 'kemco_pixel';
+    font-size: 36pt;
+    color: white;
+    text-align: left;
+}
+
+.wrapper{
+    position: relative;
+    /*height: 100px;*/
+    width: 80%;
+    margin: 0 0 0 0;
+    /* top: 50%; */
+    left: 10%;
+    right: 10%;
+    /*padding-bottom: 90px;*/
+}
+
+.score-header{
+    font-size: 34pt;
+    color: yellow;
+    font-family: 'kemco_pixel';
+}
+
+.col-left{
+    text-align: left;
+    border-top: none !important;
+}
+
+.col-center{
+    text-align: center;
+    border-top: none !important;
+}
+
+.col-right{
+    text-align: right;
+    border-top: none !important;
+}
+
+.high-score-rows{
+    font-family: 'kemco_pixel';
+    font-size: 24pt;
+    color: white;
+    border-top: none;
+}
+
+/* Ids */
+
+#title-container{
+    width: 100%;
+}
+
+#high-score-title{
+    font-family: 'kemco_pixel';
+    font-size: 36pt;
+    color: #00ffda;
+    text-align: center;
+    padding-bottom: 30px;
+}
