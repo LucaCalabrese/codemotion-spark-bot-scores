@@ -1,7 +1,7 @@
 var colors = ["white", "#66ccff", "orange", "violet", "lime", "pink", "#ffcc99", "#66ffcc", "#ffcc00", "#ff6666"];
 
 var getScores = function () {
-    $.get("http://ec2-35-160-245-208.us-west-2.compute.amazonaws.com:8080/chatbot-codemotion/api/engine/scores", function (data) {
+    $.get("https://kvpwpsu9l2.execute-api.us-west-2.amazonaws.com/final/chatbot-codemotion/api/engine/scores", function (data) {
         $('.high-score-rows').empty();
         $.each(data, function (i, item) {
             if (i < 18) {
